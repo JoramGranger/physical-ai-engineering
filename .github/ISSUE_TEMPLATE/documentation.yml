@@ -1,0 +1,25 @@
+name: Documentation correction or learning gap
+description: Report an inaccurate reference, unclear concept, or missing engineering check.
+title: "[docs] "
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: File or resource
+      description: Link the relevant document, section, or source URL.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and evidence
+      description: Explain what is incorrect or unclear and provide an authoritative source or worked example.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed improvement
+      description: State the learning objective and how a learner could verify understanding.
+    validations:
+      required: true

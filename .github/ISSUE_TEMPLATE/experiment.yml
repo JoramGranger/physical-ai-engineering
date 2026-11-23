@@ -1,0 +1,32 @@
+name: Experiment or project milestone
+description: Propose a bounded experiment or reproducible implementation milestone.
+title: "[experiment] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and project
+      description: Identify the owning project/course, hypothesis, and decision this work informs.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Baseline and method
+      description: Define inputs, changed variable, controls, metrics, sample count, and acceptance rule.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and execution mode
+      description: State hardware/software requirements, simulation/replay/bench/physical mode, and commissioning dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables and reproduction
+      description: Describe commands, manifests, artifact provenance, and report expected from this milestone.
+    validations:
+      required: true

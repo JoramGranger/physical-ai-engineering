@@ -1,0 +1,64 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Build and tool output
+build/
+dist/
+*.egg-info/
+node_modules/
+.cache/
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and private workspace configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Large datasets, recordings, model artifacts, runtime logs
+data/
+datasets/
+weights/
+checkpoints/
+runs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+*.bag
+*.mcap
+*.db3
+*.ulg
+*.sif
+*.pcd
+*.ply
+*.mp4
+*.avi
+*.log
+
+# ROS workspaces
+install/
+log/
+
+# HPC job output
+slurm-*.out
+slurm-*.err
